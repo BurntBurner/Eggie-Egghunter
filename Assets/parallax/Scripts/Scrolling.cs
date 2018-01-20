@@ -16,7 +16,7 @@ public class Scrolling : MonoBehaviour {
         
     }
 
-    void LateUpdate()
+    void Update()
     {
 
         Vector2 uvAnimSpeed = new Vector2(uvSpeedX, uvSpeedY);
