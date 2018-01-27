@@ -63,19 +63,26 @@ public class eggFlight : MonoBehaviour {
 		Invoke ("ThrowEgg", randomTime);
 
 	}
+
+    /*
 	/// <summary>
 	/// Raises the collision enter event. If egg crushes earth, ly down.
 	/// </summary>
 	/// <param name="other">Other.</param>
+    */
+    /*
 	void OnCollisionEnter (Collision other) {
+        if (other.gameObject.tag == "egg")
+        {
 
-		Debug.LogWarning ("TriggerEnter");
-		Debug.Log (GetComponent<Collider>().gameObject.name);
-		Debug.Log (other.gameObject.name);
-		rb.useGravity = false;
-	
+            Debug.LogWarning("TriggerEnter");
+            Debug.Log(GetComponent<Collider>().gameObject.name);
+            Debug.Log(other.gameObject.name);
+            rb.useGravity = false;
+        }
 
 	}
+    */
 
 
 }
