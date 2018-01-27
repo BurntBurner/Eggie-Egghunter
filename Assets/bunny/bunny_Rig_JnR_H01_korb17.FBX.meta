@@ -232,6 +232,7 @@ ModelImporter:
     2300040: sub02_MeshPart0
     2300042: sub02_MeshPart1
     2300044: teeth
+    2300046: sub02
     3300000: basket_bottom
     3300002: basket_verts_back
     3300004: belt_L
@@ -255,6 +256,7 @@ ModelImporter:
     3300040: sub02_MeshPart0
     3300042: sub02_MeshPart1
     3300044: teeth
+    3300046: sub02
     4300000: Body full
     4300002: eye White
     4300004: eye Gloss cut
@@ -279,6 +281,7 @@ ModelImporter:
     4300042: belt_R
     4300044: belt_L
     4300046: CNT_BOTH_EYES
+    4300048: sub02
     7400000: RUN
     9500000: //RootNode
     13700000: Body full
@@ -292,27 +295,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 'Material #40'
-    second: {fileID: 2100000, guid: c9e127a9f150d4e4593e6973c756b5d6, type: 2}
+    second: {fileID: 2100000, guid: 644c20e1d64bf9a49b65fbe76b90b35b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 'Material #41'
-    second: {fileID: 2100000, guid: 0f1a84d70a0573548b843f78b9799fbd, type: 2}
+    second: {fileID: 2100000, guid: e87effa0d36fa074eb53acb0e0cdcce9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 'Material #498 nose'
-    second: {fileID: 2100000, guid: 4767939a8a1528348952c536679c4652, type: 2}
+    second: {fileID: 2100000, guid: 287e8db4fcde1274cad48f8470e9d086, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: No Name
-    second: {fileID: 2100000, guid: a4951509a35187f4ab50d4abe1c2f9c1, type: 2}
+    second: {fileID: 2100000, guid: 4b1c4f6cd532d0d49a4b2a23e975ddd3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: basket
-    second: {fileID: 2100000, guid: 3725d7e0c049fe14aa81a42ea1296aeb, type: 2}
+    second: {fileID: 2100000, guid: 093c44d9d98b02a4abc5ce88711b2415, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -322,7 +325,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: default-grey
-    second: {fileID: 2100000, guid: 8a34a09d1b09fe447a4c58af7d51b4e7, type: 2}
+    second: {fileID: 2100000, guid: 322b468ed3eaff4428f2ce211d52eaf3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -337,12 +340,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: pink
-    second: {fileID: 2100000, guid: 3fbff6be54885d74a88ba6d19976989f, type: 2}
+    second: {fileID: 2100000, guid: 3dc62d02e358f6544b0cba784de40739, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: redd
-    second: {fileID: 2100000, guid: ab725e9cfa267e14f8a76c36dd7fd704, type: 2}
+    second: {fileID: 2100000, guid: 9faffdfc9c778a64a882e8e019ff50d2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -418,15 +421,17 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
+    normalSmoothAngle: 10
     normalImportMode: 0
-    tangentImportMode: 3
+    tangentImportMode: 0
     normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
