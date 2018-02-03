@@ -6,11 +6,17 @@ public class EggState : MonoBehaviour {
 
     private Animator animator;
     private Vector3 transformEgg;
-    private MeshRenderer Render;
-	// Use this for initialization
-	void Start () {
+    private Quaternion RotEgg;
+    private Vector3 RotVector;
+
+    // Use this for initialization
+    void Start () {
 
         animator = GetComponentInChildren<Animator>();
+        RotVector = Vector3.zero;
+        //GetComponentInChildren<Transform>().eulerAngles = RotVector;
+        
+       
         
 	}
 	
@@ -39,6 +45,6 @@ public class EggState : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Space();
-        
-	}
+        GetComponentInChildren<Transform>().eulerAngles = RotVector;
+    }
 }
