@@ -27,7 +27,7 @@ public class GroundHit : MonoBehaviour {
 			CrushedEggs.text = "CRUSHEDEGGS: " + score.ToString ();
 
 
-			eggFlight scrambledEgg = other.GetComponent<eggFlight> ();
+	
 			/*if (scrambledEgg != null) { 
 
 				if (scrambledEgg.CrushedEgg != null) {
