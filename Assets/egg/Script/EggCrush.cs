@@ -5,13 +5,11 @@ using UnityEngine.UI;
 
 public class EggCrush : MonoBehaviour {
 	public Text CrushedEggs;
-	private Animator CrushedEgg;
     public GameObject Eggs;
 	private int score;
 	// Use this for initialization
 	void Start () {
 		score = 0;
-		CrushedEgg = GetComponent<Animator>();
 
         //Instantiate(Eggs, transform.position, transform.rotation);
 	}

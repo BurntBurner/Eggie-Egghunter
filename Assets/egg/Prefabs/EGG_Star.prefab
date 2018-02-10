@@ -705,7 +705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CrushedEggs: {fileID: 0}
-  Eggs: {fileID: 1785010148286728}
+  Eggs: {fileID: 0}
 --- !u!135 &135331783321725496
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -717,7 +717,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0, z: 0.4}
 --- !u!135 &135650554961419140
 SphereCollider:
   m_ObjectHideFlags: 1

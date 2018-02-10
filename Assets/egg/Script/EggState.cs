@@ -5,37 +5,44 @@ using UnityEngine;
 public class EggState : MonoBehaviour {
 
     private Animator animator;
-    private Vector3 transformEgg;
-    private Quaternion RotEgg;
-    private Vector3 RotVector;
+    private Rigidbody rB;
+    
 
     // Use this for initialization
     void Start () {
 
         animator = GetComponentInChildren<Animator>();
-        RotVector = Vector3.zero;
-        //GetComponentInChildren<Transform>().eulerAngles = RotVector;
+        rB = GetComponent<Rigidbody>();
         
        
         
 	}
-	
-    void Space()
+	void Space()
     {
-        
-        if (this.transform.position.y <= -10)
+        if(transform.position.y < -10)
         {
             Destroy(this.gameObject);
         }
+        
+
     }
 
     void OnCollisionEnter(Collision col)
     {
         if(col.gameObject.tag == "Ground")
         {
+            transform.eulerAngles = Vector3.zero;
             animator.SetTrigger("CrushOnEarth");
+            rB.isKinematic = true;
             
             Destroy(this.gameObject, 0.6f);
+        }
+
+        if(col.gameObject.tag == "Basket")
+        {
+
+            Destroy(this.gameObject);
+
         }
     }
 
@@ -45,6 +52,6 @@ public class EggState : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Space();
-        GetComponentInChildren<Transform>().eulerAngles = RotVector;
+        
     }
 }

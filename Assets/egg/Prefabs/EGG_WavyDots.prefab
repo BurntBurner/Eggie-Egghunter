@@ -38,13 +38,14 @@ GameObject:
   - component: {fileID: 4179714526451026}
   - component: {fileID: 54232703118641966}
   - component: {fileID: 135947663707362742}
+  - component: {fileID: 114732976613775024}
   m_Layer: 0
   m_Name: EGG_WavyDots
   m_TagString: egg
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1209760275138466
 GameObject:
   m_ObjectHideFlags: 1
@@ -694,6 +695,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CrushedEggs: {fileID: 0}
   Eggs: {fileID: 0}
+--- !u!114 &114732976613775024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101872259311524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5803afbd7a4d6fb44971a867340f4dd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135507541620850928
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -717,4 +729,4 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0, z: 0.4}

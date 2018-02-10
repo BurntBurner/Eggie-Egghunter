@@ -802,9 +802,10 @@ GameObject:
   - component: {fileID: 4311306300831186}
   - component: {fileID: 33452688582760334}
   - component: {fileID: 23187220454803822}
+  - component: {fileID: 136777555071762196}
   m_Layer: 0
   m_Name: basket_plain
-  m_TagString: Untagged
+  m_TagString: Basket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1427,7 +1428,7 @@ GameObject:
   - component: {fileID: 114680268173428844}
   m_Layer: 0
   m_Name: bunny
-  m_TagString: Untagged
+  m_TagString: Basket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3588,7 +3589,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1508904392613498}
-  m_Mesh: {fileID: 4300036, guid: 39321f784c696a94191a31ba9ce9ec11, type: 3}
+  m_Mesh: {fileID: 4300036, guid: 4e798078999022248911d243730b1608, type: 3}
 --- !u!33 &33547971702418350
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -3702,6 +3703,19 @@ CapsuleCollider:
   m_Height: 1.0000002
   m_Direction: 1
   m_Center: {x: 0, y: 1.45, z: 0.43}
+--- !u!136 &136777555071762196
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1508904392613498}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5930963
+  m_Height: 1.1861926
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.21, z: 0.34}
 --- !u!137 &137355811869719732
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

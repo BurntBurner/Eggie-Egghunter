@@ -13,6 +13,7 @@ public class eggFlightTestGblur : MonoBehaviour {
     public EggState[] EggPrefabs;
     public EggState Eggprefab;
     public Vector2[] ForceVector = new Vector2[2];
+    public Vector3[] TorqueVector = new Vector3[2];
 
     private float startTime;
     //private Vector3 direction;
@@ -27,25 +28,6 @@ public class eggFlightTestGblur : MonoBehaviour {
         // direction = (target.position - transform.position).normalized;
         //orthogonal = new Vector3 (-direction.z, 0, direction.x);
         Invoke("ThrowEgg", startafter);
-
-        // init Rb array from Prefabs
-      /*  for (int i = 0; i < EggPrefabs.Length; i++)
-        {
-            rbForces[i] = EggPrefabs[i].GetComponent<Rigidbody>();
-            Debug.Log(EggPrefabs);
-
-        }
-        */
-    }
-
-
-
-
-    // Update is called once per frame
-    void Update()
-    {
-       
-
     }
 
     void ThrowEgg()
@@ -55,29 +37,30 @@ public class eggFlightTestGblur : MonoBehaviour {
         float randomTime = Random.Range(randomRangeMin, randomRangeMax);
  
         //generate IndexNumbers
-        int indexGO = Random.Range(0 , 2);
-        int indexForce = Random.Range(0, 2);
+        int indexGO = Random.Range(0 , 3);
+        int indexForce = Random.Range(0, 3);
+        int indexTorque = Random.Range(0, 3);
         //Debug.Log(indexGO);
 
         //Instantiate Go and call index
         Eggprefab = Instantiate(EggPrefabs[indexGO], transform.position, transform.rotation);
         Eggprefab.GetComponent<Rigidbody>().AddForce(ForceVector[indexForce]);
-       
+        Eggprefab.GetComponent<Rigidbody>().AddTorque(TorqueVector[indexTorque]);
 
-        // if state Collision pass
-       
+        Invoke("ThrowEgg", randomTime);
         
-   
+
+
         //float t = Time.time - startTime;
-		//rb.velocity = direction * speed + orthogonal * amplitude * Mathf.Sin (frequency * t);
-		//rb.AddForce(new Vector3(forceX,forceY,0));
-		//rb.velocity = Vector3.zero;
-		//rb.angularVelocity = Vector3.zero;
-		//rb.useGravity = true;
+        //rb.velocity = direction * speed + orthogonal * amplitude * Mathf.Sin (frequency * t);
+        //rb.AddForce(new Vector3(forceX,forceY,0));
+        //rb.velocity = Vector3.zero;
+        //rb.angularVelocity = Vector3.zero;
+        //rb.useGravity = true;
 
-		Invoke ("ThrowEgg", randomTime);
 
-	}
+
+    }
     
 
 
