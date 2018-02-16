@@ -694,7 +694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CrushedEggs: {fileID: 0}
-  Eggs: {fileID: 0}
+  Eggs: {fileID: 1209584383948004, guid: 039fac08ed30e494db81da5ffe1e32c6, type: 2}
 --- !u!114 &114716418236679190
 MonoBehaviour:
   m_ObjectHideFlags: 1
