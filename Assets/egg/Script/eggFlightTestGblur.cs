@@ -37,7 +37,7 @@ public class eggFlightTestGblur : MonoBehaviour {
         float randomTime = Random.Range(randomRangeMin, randomRangeMax);
  
         //generate IndexNumbers
-        int indexGO = Random.Range(0 , 3);
+        int indexGO = Random.Range(0 , 5);
         int indexForce = Random.Range(0, 3);
         int indexTorque = Random.Range(0, 3);
         //Debug.Log(indexGO);

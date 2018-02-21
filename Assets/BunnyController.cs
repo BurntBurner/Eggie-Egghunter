@@ -5,18 +5,20 @@ using UnityEngine.UI;
 
 public class BunnyController : MonoBehaviour {
 
+    public Transform GameElements;
 	public Text ScoredEggs;
 	private int score;
     
 	void start()
 	{
-		score = 0;
+        score = 0;
+        GameElements = GetComponent<Transform>();
 	}
 
 	void Update()
 	{
 
-		float diff = Mathf.Floor(Camera.main.transform.position.x) - Mathf.Floor(transform.position.x);
+        float diff = Mathf.Floor(GameElements.position.x) - Mathf.Floor(transform.position.x);
 
 
 		if (Input.GetKeyDown(KeyCode.LeftArrow) && diff < 4.1f)
@@ -27,10 +29,10 @@ public class BunnyController : MonoBehaviour {
 		{
 			transform.position += new Vector3(4,0,0);
 		}
+        
 
 
-
-	}
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
