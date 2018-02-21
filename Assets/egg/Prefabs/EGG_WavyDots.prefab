@@ -106,7 +106,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4875660232456630}
   - component: {fileID: 135507541620850928}
-  - component: {fileID: 114044594252093632}
   - component: {fileID: 95647616008113024}
   m_Layer: 0
   m_Name: egg_crush
@@ -682,19 +681,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114044594252093632
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1457348058790614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 205f81347617cbf4eba32f6429b444e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CrushedEggs: {fileID: 0}
-  Eggs: {fileID: 0}
 --- !u!114 &114732976613775024
 MonoBehaviour:
   m_ObjectHideFlags: 1

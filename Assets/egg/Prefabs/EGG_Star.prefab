@@ -140,7 +140,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4377942550976154}
   - component: {fileID: 135650554961419140}
-  - component: {fileID: 114983128537730306}
   - component: {fileID: 95886491371443048}
   m_Layer: 0
   m_Name: egg_crush
@@ -693,19 +692,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5803afbd7a4d6fb44971a867340f4dd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114983128537730306
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1785010148286728}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 205f81347617cbf4eba32f6429b444e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CrushedEggs: {fileID: 0}
-  Eggs: {fileID: 0}
 --- !u!135 &135331783321725496
 SphereCollider:
   m_ObjectHideFlags: 1

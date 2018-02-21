@@ -7,7 +7,7 @@ public class BunnyController : MonoBehaviour {
 
 	public Text ScoredEggs;
 	private int score;
-
+    
 	void start()
 	{
 		score = 0;
@@ -32,9 +32,10 @@ public class BunnyController : MonoBehaviour {
 
 	}
 
-	void OnTriggerEnter(Collider other)
-	{
-		if (other.gameObject.tag == "egg") {
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+		if (collision.gameObject.tag == "egg") {
 
 			score += 1;
 			ScoredEggs.text = "EGGS: " + score.ToString ();

@@ -9,7 +9,7 @@ public class Scrolling : MonoBehaviour {
     public float uvSpeedY;
     public float uvSpeedX;
     public Material Mat;
-
+    public GameObject game;
     private void Start()
     {
         Mat = GetComponent<SpriteRenderer>().material;
