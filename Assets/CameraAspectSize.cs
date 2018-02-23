@@ -44,7 +44,7 @@ public class CameraAspectSize : MonoBehaviour {
 
 
         }
-        Debug.Log(AspectRounded);
+        //Debug.Log(AspectRounded);
     }
 
 }

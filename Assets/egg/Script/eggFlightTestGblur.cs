@@ -6,8 +6,9 @@ public class eggFlightTestGblur : MonoBehaviour {
 
     //public Animator CrushedEgg;
 
-    public int cannonBullets;    
-	public float startafter;
+    public int cannonBullets;
+    public int ForceindexRange;
+    public float startafter;
 	public float randomRangeMin;
 	public float randomRangeMax;
     public EggState[] EggPrefabs;
@@ -23,7 +24,7 @@ public class eggFlightTestGblur : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
-       
+
         startTime = Time.time;
         // direction = (target.position - transform.position).normalized;
         //orthogonal = new Vector3 (-direction.z, 0, direction.x);
@@ -38,8 +39,8 @@ public class eggFlightTestGblur : MonoBehaviour {
  
         //generate IndexNumbers
         int indexGO = Random.Range(0 , cannonBullets);
-        int indexForce = Random.Range(0, 3);
-        int indexTorque = Random.Range(0, 3);
+        int indexForce = Random.Range(0, ForceindexRange);
+        int indexTorque = Random.Range(0, ForceindexRange);
         //Debug.Log(indexGO);
 
         //Instantiate Go and call index

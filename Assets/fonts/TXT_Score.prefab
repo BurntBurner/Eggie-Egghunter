@@ -9,32 +9,51 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1010173655773150}
+  m_RootGameObject: {fileID: 1108171331304502}
   m_IsPrefabParent: 1
---- !u!1 &1010173655773150
+--- !u!1 &1108171331304502
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 224463082237419134}
-  - component: {fileID: 222522512305738510}
-  - component: {fileID: 114193295277788724}
-  - component: {fileID: 114894780828761430}
-  m_Layer: 0
-  m_Name: TXT_ScoredEggs
+  - component: {fileID: 224957320509548750}
+  - component: {fileID: 222537410510466418}
+  - component: {fileID: 114176893621587566}
+  - component: {fileID: 114130883766795304}
+  m_Layer: 5
+  m_Name: TXT_Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &114193295277788724
+--- !u!114 &114130883766795304
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1010173655773150}
+  m_GameObject: {fileID: 1108171331304502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd3113f7c8e40f4e89fa4d69a7d0249, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.44705883, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 0
+  m_size: 1.35
+  glintEffect: 0
+  glintVertex: 0
+  glintWidth: 0
+  glintColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114176893621587566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1108171331304502}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -50,10 +69,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5bfa3707ef7b31a4597dd29b6a2c5f40, type: 3}
-    m_FontSize: 20
+    m_FontSize: 17
     m_FontStyle: 3
     m_BestFit: 1
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -61,47 +80,28 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'EGGS:'
---- !u!114 &114894780828761430
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1010173655773150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bd3113f7c8e40f4e89fa4d69a7d0249, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 1, y: -1}
-  m_UseGraphicAlpha: 1
-  m_size: 3
-  glintEffect: 0
-  glintVertex: 0
-  glintWidth: 0
-  glintColor: {r: 0, g: 0, b: 0, a: 0}
---- !u!222 &222522512305738510
+  m_Text: 
+--- !u!222 &222537410510466418
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1010173655773150}
---- !u!224 &224463082237419134
+  m_GameObject: {fileID: 1108171331304502}
+--- !u!224 &224957320509548750
 RectTransform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1010173655773150}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 1108171331304502}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -187.38168, y: 138.72}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 142.23001, y: -1.1175}
+  m_SizeDelta: {x: 47.82, y: 21.245}
   m_Pivot: {x: 0.5, y: 0.5}

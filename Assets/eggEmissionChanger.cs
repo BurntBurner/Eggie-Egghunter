@@ -35,7 +35,7 @@ public class eggEmissionChanger : MonoBehaviour {
            
 
 
-            Debug.Log(change);
+
 
         }
         Color EmissionCol = new Color(change, change, change);

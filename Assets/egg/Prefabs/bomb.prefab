@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4384717121306238}
   - component: {fileID: 135515780455239240}
   - component: {fileID: 54829323754027520}
-  - component: {fileID: 114885566419639588}
+  - component: {fileID: 114496156868835006}
   m_Layer: 0
   m_Name: bomb
   m_TagString: bomb
@@ -113,7 +113,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1497738970506438
 GameObject:
   m_ObjectHideFlags: 1
@@ -552,7 +552,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114885566419639588
+--- !u!114 &114496156868835006
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -560,9 +560,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1011187161279436}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5803afbd7a4d6fb44971a867340f4dd3, type: 3}
+  m_Script: {fileID: 11500000, guid: fc49eaf9533b9544484f5e6f37ca9558, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: -10
+  text: {fileID: 114193295277788724, guid: 25ed3cef62757dd4abe36805c9f703ed, type: 2}
 --- !u!135 &135515780455239240
 SphereCollider:
   m_ObjectHideFlags: 1
