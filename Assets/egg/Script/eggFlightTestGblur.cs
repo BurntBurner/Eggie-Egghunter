@@ -5,8 +5,8 @@ using UnityEngine;
 public class eggFlightTestGblur : MonoBehaviour {
 
     //public Animator CrushedEgg;
-    
-        
+
+    public int cannonBullets;    
 	public float startafter;
 	public float randomRangeMin;
 	public float randomRangeMax;
@@ -23,7 +23,7 @@ public class eggFlightTestGblur : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
-        
+       
         startTime = Time.time;
         // direction = (target.position - transform.position).normalized;
         //orthogonal = new Vector3 (-direction.z, 0, direction.x);
@@ -37,7 +37,7 @@ public class eggFlightTestGblur : MonoBehaviour {
         float randomTime = Random.Range(randomRangeMin, randomRangeMax);
  
         //generate IndexNumbers
-        int indexGO = Random.Range(0 , 5);
+        int indexGO = Random.Range(0 , cannonBullets);
         int indexForce = Random.Range(0, 3);
         int indexTorque = Random.Range(0, 3);
         //Debug.Log(indexGO);

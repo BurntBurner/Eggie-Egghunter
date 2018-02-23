@@ -54,7 +54,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4149196127785148}
-  - component: {fileID: 135856005180891832}
   - component: {fileID: 114586791391981870}
   - component: {fileID: 95739773848965316}
   m_Layer: 0
@@ -717,16 +716,4 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.38
-  m_Center: {x: 0, y: 0, z: 0.4}
---- !u!135 &135856005180891832
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1376391372116510}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.34
   m_Center: {x: 0, y: 0, z: 0.4}

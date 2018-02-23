@@ -7,6 +7,7 @@ TagManager:
   - egg
   - Ground
   - Basket
+  - bomb
   layers:
   - Default
   - TransparentFX
