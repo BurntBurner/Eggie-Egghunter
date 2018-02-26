@@ -6,6 +6,7 @@ public class EggState : MonoBehaviour {
 
     private Animator animator;
     private Rigidbody rB;
+    public int Value;
     
 
     // Use this for initialization
@@ -15,8 +16,9 @@ public class EggState : MonoBehaviour {
         rB = GetComponent<Rigidbody>();
         
        
-        
-	}
+
+
+    }
 	void Space()
     {
         if(transform.position.y < -10)
