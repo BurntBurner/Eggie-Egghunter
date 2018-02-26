@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
+[ExecuteInEditMode]
 public class CameraAspectSize : MonoBehaviour {
 
     private Camera Camera;
