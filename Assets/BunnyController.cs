@@ -9,7 +9,8 @@ public class BunnyController : MonoBehaviour
     public Transform GameElements;
     public Text ScoredEggs;
     private int score;
-    private int damage;
+    
+    public EggState EggValue;
     
 
     void start()
@@ -45,8 +46,8 @@ public class BunnyController : MonoBehaviour
 
         if (collision.gameObject.tag == "egg")
         {
-            
-            score += 1;
+            int value = collision.gameObject.GetComponent<EggState>().Value;
+            score += value;
             ScoredEggs.text = score.ToString();
         }
 
