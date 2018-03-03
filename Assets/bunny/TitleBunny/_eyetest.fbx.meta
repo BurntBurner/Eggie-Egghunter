@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: 41426c75edc8df448bac200bf0b55f8b
+timeCreated: 1519768962
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Base Human
+    100004: Base HumanHead
+    100006: Base HumanLArm1
+    100008: Base HumanLArm2
+    100010: Base HumanLArmCollarbone
+    100012: Base HumanLArmPalm
+    100014: Base HumanLCalf
+    100016: Base HumanLCollarbone
+    100018: Base HumanLDigit11
+    100020: Base HumanLDigit11 1
+    100022: Base HumanLDigit12
+    100024: Base HumanLDigit12 1
+    100026: Base HumanLDigit13
+    100028: Base HumanLDigit21
+    100030: Base HumanLDigit22
+    100032: Base HumanLDigit23
+    100034: Base HumanLDigit31
+    100036: Base HumanLDigit32
+    100038: Base HumanLDigit33
+    100040: Base HumanLDigit41
+    100042: Base HumanLDigit42
+    100044: Base HumanLDigit43
+    100046: Base HumanLFoot
+    100048: Base HumanLForearm
+    100050: Base HumanLPalm
+    100052: Base HumanLPlatform
+    100054: Base HumanLThigh
+    100056: Base HumanLUpperarm
+    100058: Base HumanLUpVectorNode
+    100060: Base HumanLUpVectorNodeGizmo
+    100062: Base HumanNeck1
+    100064: Base HumanNeck2
+    100066: Base HumanPelvis
+    100068: Base HumanRArm1
+    100070: Base HumanRArm2
+    100072: Base HumanRArmCollarbone
+    100074: Base HumanRArmPalm
+    100076: Base HumanRCalf
+    100078: Base HumanRCollarbone
+    100080: Base HumanRDigit11
+    100082: Base HumanRDigit11 1
+    100084: Base HumanRDigit12
+    100086: Base HumanRDigit12 1
+    100088: Base HumanRDigit13
+    100090: Base HumanRDigit21
+    100092: Base HumanRDigit22
+    100094: Base HumanRDigit23
+    100096: Base HumanRDigit31
+    100098: Base HumanRDigit32
+    100100: Base HumanRDigit33
+    100102: Base HumanRDigit41
+    100104: Base HumanRDigit42
+    100106: Base HumanRDigit43
+    100108: Base HumanRFoot
+    100110: Base HumanRForearm
+    100112: Base HumanRibcage
+    100114: Base HumanRPalm
+    100116: Base HumanRPlatform
+    100118: Base HumanRThigh
+    100120: Base HumanRUpperarm
+    100122: Base HumanRUpVectorNode
+    100124: Base HumanRUpVectorNodeGizmo
+    100126: Base HumanSpine1
+    100128: Base HumanSpine2
+    100130: Base HumanSpine3
+    100132: Base HumanSpine4
+    100134: Base HumanTail1
+    100136: Basket
+    100138: basket_plain
+    100140: Body full
+    100142: CNT_BOTH_EYES
+    100144: CNT_EYE_L
+    100146: CNT_EYE_R
+    100148: eye Gloss cut
+    100150: eye Gloss_R
+    100152: eye White
+    100154: eye White_R
+    100156: eye_lid_down_L
+    100158: eye_lid_down_L_slider
+    100160: eye_lid_down_R
+    100162: eye_lid_down_R_slider
+    100164: eye_lid_upp_L
+    100166: eye_lid_upp_L_slider
+    100168: eye_lid_upp_R
+    100170: eye_lid_upp_R_slider
+    100172: HLP_EYE_L
+    100174: HLP_EYE_R
+    100176: Iris
+    100178: Iris_R
+    100180: Jaw
+    100182: nose
+    100184: pupi_R
+    100186: pupil
+    100188: teeth
+    400000: //RootNode
+    400002: Base Human
+    400004: Base HumanHead
+    400006: Base HumanLArm1
+    400008: Base HumanLArm2
+    400010: Base HumanLArmCollarbone
+    400012: Base HumanLArmPalm
+    400014: Base HumanLCalf
+    400016: Base HumanLCollarbone
+    400018: Base HumanLDigit11
+    400020: Base HumanLDigit11 1
+    400022: Base HumanLDigit12
+    400024: Base HumanLDigit12 1
+    400026: Base HumanLDigit13
+    400028: Base HumanLDigit21
+    400030: Base HumanLDigit22
+    400032: Base HumanLDigit23
+    400034: Base HumanLDigit31
+    400036: Base HumanLDigit32
+    400038: Base HumanLDigit33
+    400040: Base HumanLDigit41
+    400042: Base HumanLDigit42
+    400044: Base HumanLDigit43
+    400046: Base HumanLFoot
+    400048: Base HumanLForearm
+    400050: Base HumanLPalm
+    400052: Base HumanLPlatform
+    400054: Base HumanLThigh
+    400056: Base HumanLUpperarm
+    400058: Base HumanLUpVectorNode
+    400060: Base HumanLUpVectorNodeGizmo
+    400062: Base HumanNeck1
+    400064: Base HumanNeck2
+    400066: Base HumanPelvis
+    400068: Base HumanRArm1
+    400070: Base HumanRArm2
+    400072: Base HumanRArmCollarbone
+    400074: Base HumanRArmPalm
+    400076: Base HumanRCalf
+    400078: Base HumanRCollarbone
+    400080: Base HumanRDigit11
+    400082: Base HumanRDigit11 1
+    400084: Base HumanRDigit12
+    400086: Base HumanRDigit12 1
+    400088: Base HumanRDigit13
+    400090: Base HumanRDigit21
+    400092: Base HumanRDigit22
+    400094: Base HumanRDigit23
+    400096: Base HumanRDigit31
+    400098: Base HumanRDigit32
+    400100: Base HumanRDigit33
+    400102: Base HumanRDigit41
+    400104: Base HumanRDigit42
+    400106: Base HumanRDigit43
+    400108: Base HumanRFoot
+    400110: Base HumanRForearm
+    400112: Base HumanRibcage
+    400114: Base HumanRPalm
+    400116: Base HumanRPlatform
+    400118: Base HumanRThigh
+    400120: Base HumanRUpperarm
+    400122: Base HumanRUpVectorNode
+    400124: Base HumanRUpVectorNodeGizmo
+    400126: Base HumanSpine1
+    400128: Base HumanSpine2
+    400130: Base HumanSpine3
+    400132: Base HumanSpine4
+    400134: Base HumanTail1
+    400136: Basket
+    400138: basket_plain
+    400140: Body full
+    400142: CNT_BOTH_EYES
+    400144: CNT_EYE_L
+    400146: CNT_EYE_R
+    400148: eye Gloss cut
+    400150: eye Gloss_R
+    400152: eye White
+    400154: eye White_R
+    400156: eye_lid_down_L
+    400158: eye_lid_down_L_slider
+    400160: eye_lid_down_R
+    400162: eye_lid_down_R_slider
+    400164: eye_lid_upp_L
+    400166: eye_lid_upp_L_slider
+    400168: eye_lid_upp_R
+    400170: eye_lid_upp_R_slider
+    400172: HLP_EYE_L
+    400174: HLP_EYE_R
+    400176: Iris
+    400178: Iris_R
+    400180: Jaw
+    400182: nose
+    400184: pupi_R
+    400186: pupil
+    400188: teeth
+    2100000: 'Material #41'
+    2100002: whitte
+    2100004: redd
+    2100006: 'Material #40'
+    2100008: default-grey
+    2100010: pink
+    2100012: eye White
+    2100014: No Name
+    2100016: Iris
+    2100018: blakk
+    2100020: 'Material #498 nose'
+    2100022: eye lids
+    2100024: basket
+    2300000: basket_plain
+    2300002: CNT_BOTH_EYES
+    2300004: eye Gloss cut
+    2300006: eye Gloss_R
+    2300008: eye White
+    2300010: eye White_R
+    2300012: eye_lid_down_L
+    2300014: eye_lid_down_R
+    2300016: eye_lid_upp_L
+    2300018: eye_lid_upp_R
+    2300020: Iris
+    2300022: Iris_R
+    2300024: Jaw
+    2300026: nose
+    2300028: pupi_R
+    2300030: pupil
+    2300032: teeth
+    3300000: basket_plain
+    3300002: CNT_BOTH_EYES
+    3300004: eye Gloss cut
+    3300006: eye Gloss_R
+    3300008: eye White
+    3300010: eye White_R
+    3300012: eye_lid_down_L
+    3300014: eye_lid_down_R
+    3300016: eye_lid_upp_L
+    3300018: eye_lid_upp_R
+    3300020: Iris
+    3300022: Iris_R
+    3300024: Jaw
+    3300026: nose
+    3300028: pupi_R
+    3300030: pupil
+    3300032: teeth
+    4300000: Body full
+    4300002: eye White
+    4300004: eye Gloss cut
+    4300006: Iris
+    4300008: pupil
+    4300010: eye White_R
+    4300012: eye Gloss_R
+    4300014: Iris_R
+    4300016: pupi_R
+    4300018: teeth
+    4300020: nose
+    4300022: Jaw
+    4300024: eye_lid_upp_R
+    4300026: eye_lid_down_R
+    4300028: eye_lid_down_L
+    4300030: eye_lid_upp_L
+    4300032: CNT_BOTH_EYES
+    4300034: basket_plain
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Body full
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

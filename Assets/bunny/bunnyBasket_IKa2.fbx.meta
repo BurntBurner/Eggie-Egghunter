@@ -264,7 +264,7 @@ ModelImporter:
     4300030: eye_lid_upp_L
     4300032: CNT_BOTH_EYES
     4300034: basket_plain
-    7400000: Take 001
+    7400000: bunnyBasket_IKa2
     9500000: //RootNode
     13700000: Body full
   externalObjects: {}
@@ -295,7 +295,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: bunnyBasket_IKa2
       takeName: Take 001
       firstFrame: 0
       lastFrame: 25
