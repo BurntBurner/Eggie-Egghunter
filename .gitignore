@@ -14,6 +14,11 @@
 *.pidb
 *.booproj
 
+## Unwanted Folders for SrcControl ##
+## Standard Assets // this can be imported immediatly ##
+
+/Assets/Unity\ Technologies/
+
 # Unity3D generated meta files
 *.pidb.meta
 
