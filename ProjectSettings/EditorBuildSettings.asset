@@ -6,5 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Egghunter_alpha_5a1.unity
-    guid: 3c23b8f9fddc374489ba304d7b9cd772
+    path: Assets/Scenes/Egghunter_Title_2a.unity
+    guid: a2cd760333a28f04aa99b3f08513f829
+  - enabled: 1
+    path: Assets/Scenes/Egghunter_alpha_5b1.unity
+    guid: e2df6e512fbf6d44ea4114cf89455151
