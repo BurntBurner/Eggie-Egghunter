@@ -49,7 +49,11 @@ public class BombFlightTestGblur : MonoBehaviour {
         Bombprefab.GetComponent<Rigidbody>().AddTorque(TorqueVector[indexTorque]);
 
         Invoke("ThrowEgg", randomTime);
-        
+
+        // play throwing sfx
+
+        GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.2f);
+        GetComponent<AudioSource>().Play();
 
 
         //float t = Time.time - startTime;

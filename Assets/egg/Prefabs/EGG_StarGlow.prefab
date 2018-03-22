@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33210686962771796}
   - component: {fileID: 23709702843350462}
   - component: {fileID: 114195667127381058}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: schale
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 4963151151584702}
   - component: {fileID: 33067044419786034}
   - component: {fileID: 23652251450628648}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: eiweiss001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 4877251244054220}
   - component: {fileID: 33712298577383682}
   - component: {fileID: 23667271888752660}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: eiweiss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 4075015909407348}
   - component: {fileID: 33109741071756060}
   - component: {fileID: 23511776032298928}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: dotter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 33726148891075950}
   - component: {fileID: 23009888140784458}
   - component: {fileID: 114466545581939948}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: schale4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4055787175011082}
   - component: {fileID: 95173126516955666}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: egg_crush
   m_TagString: egg
   m_Icon: {fileID: 0}
@@ -125,7 +125,8 @@ GameObject:
   - component: {fileID: 54235782655368688}
   - component: {fileID: 135807004412823710}
   - component: {fileID: 114579342110130354}
-  m_Layer: 0
+  - component: {fileID: 82525299984006568}
+  m_Layer: 8
   m_Name: EGG_StarGlow
   m_TagString: egg
   m_Icon: {fileID: 0}
@@ -143,7 +144,7 @@ GameObject:
   - component: {fileID: 33568338059687514}
   - component: {fileID: 23358085644095542}
   - component: {fileID: 114902177947082102}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: schale2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,7 +162,7 @@ GameObject:
   - component: {fileID: 33773560856372918}
   - component: {fileID: 23086038074601548}
   - component: {fileID: 114405978793803746}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: schale1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +179,7 @@ GameObject:
   - component: {fileID: 4901091123027106}
   - component: {fileID: 33651128151360702}
   - component: {fileID: 23054584256011868}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: eiweiss002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -667,6 +668,86 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!82 &82525299984006568
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1480810421603188}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9c9dd642ae68f194f9d6b79c4b926b26, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!95 &95173126516955666
 Animator:
   serializedVersion: 3

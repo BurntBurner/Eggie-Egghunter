@@ -1741,7 +1741,7 @@ Prefab:
     - target: {fileID: 224835562061504348, guid: 846358a6a991a39418a1fdc6e23f8f0d,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -35
       objectReference: {fileID: 0}
     - target: {fileID: 224168379898396702, guid: 846358a6a991a39418a1fdc6e23f8f0d,
         type: 2}
@@ -1761,7 +1761,7 @@ Prefab:
     - target: {fileID: 224168379898396702, guid: 846358a6a991a39418a1fdc6e23f8f0d,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -36
       objectReference: {fileID: 0}
     - target: {fileID: 114409359837340914, guid: 846358a6a991a39418a1fdc6e23f8f0d,
         type: 2}
@@ -3967,7 +3967,7 @@ Camera:
   far clip plane: 1000
   field of view: 61.5
   orthographic: 1
-  orthographic size: 5.5
+  orthographic size: 6.6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

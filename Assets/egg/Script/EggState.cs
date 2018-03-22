@@ -36,7 +36,8 @@ public class EggState : MonoBehaviour {
             transform.eulerAngles = Vector3.zero;
             animator.SetTrigger("CrushOnEarth");
             rB.isKinematic = true;
-            
+            GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.2f);
+            GetComponent<AudioSource>().Play();
             Destroy(this.gameObject, 0.6f);
         }
 
@@ -44,7 +45,7 @@ public class EggState : MonoBehaviour {
         {
 
             Destroy(this.gameObject);
-
+           
         }
     }
 
