@@ -66,8 +66,4 @@ public class BombFlightTestGblur : MonoBehaviour {
 
 
     }
-    
-
-
 }
-

@@ -7,7 +7,8 @@ public class EggState : MonoBehaviour {
     private Animator animator;
     private Rigidbody rB;
     public int Value;
-    
+	public AudioSource EggCrack;
+	public AudioSource EggPick;
 
     // Use this for initialization
     void Start () {
@@ -38,14 +39,13 @@ public class EggState : MonoBehaviour {
             rB.isKinematic = true;
             GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.2f);
             GetComponent<AudioSource>().Play();
+			transform.eulerAngles = Vector3.zero;
             Destroy(this.gameObject, 0.6f);
         }
 
         if(col.gameObject.tag == "Basket")
         {
-
-            Destroy(this.gameObject);
-           
+            Destroy(this.gameObject);  
         }
     }
 

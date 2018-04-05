@@ -11,6 +11,7 @@ public class BombState : MonoBehaviour
     public Text text;
     public GameObject BombParticle;
     public AudioSource Explosion;
+	private float rangeSFX;
 
     // Use this for initialization
     void Start()
@@ -52,6 +53,12 @@ public class BombState : MonoBehaviour
 
     void OnCollisionEnter(Collision col)
     {
+		
+		rangeSFX = Random.Range(0.8f, 1.2f);
+		GetComponent<AudioSource> ().pitch = rangeSFX;
+		GetComponent<AudioSource> ().volume = 0.7f;
+		GetComponent<AudioSource>().Play();
+
         if (col.gameObject.tag == "Ground")
         {
             transform.eulerAngles = Vector3.zero;
