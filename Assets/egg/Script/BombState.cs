@@ -11,7 +11,7 @@ public class BombState : MonoBehaviour
     public Text text;
     public GameObject BombParticle;
     public AudioSource Explosion;
-	private float rangeSFX;
+    private float rangeSFX;
 
     // Use this for initialization
     void Start()
@@ -53,30 +53,29 @@ public class BombState : MonoBehaviour
 
     void OnCollisionEnter(Collision col)
     {
-		
-		rangeSFX = Random.Range(0.8f, 1.2f);
-		GetComponent<AudioSource> ().pitch = rangeSFX;
-		GetComponent<AudioSource> ().volume = 0.7f;
-		GetComponent<AudioSource>().Play();
+
+        rangeSFX = Random.Range(0.8f, 1.2f);
+        GetComponent<AudioSource>().pitch = rangeSFX;
+        GetComponent<AudioSource>().volume = 0.2f;
+        GetComponent<AudioSource>().Play();
 
         if (col.gameObject.tag == "Ground")
         {
             transform.eulerAngles = Vector3.zero;
 
 
-            Destroy(this.gameObject, 0.6f);
+
         }
 
         if (col.gameObject.tag == "Basket")
         {
-
+            /*rangeSFX = Random.Range(0.8f, 1.2f);
+			GetComponent<AudioSource> ().pitch = rangeSFX;
+			GetComponent<AudioSource> ().volume = 0.2;
+			GetComponent<AudioSource>().Play();*/
             StartCoroutine("Bomb");
-            Destroy(this.gameObject);
-            GetComponent<AudioSource>().pitch = Random.Range(0.8f, 1.2f);
-            GetComponent<AudioSource>().Play();
-
-
         }
+        Destroy(this.gameObject, rangeSFX);
     }
 
 
