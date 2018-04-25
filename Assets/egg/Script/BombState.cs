@@ -56,7 +56,7 @@ public class BombState : MonoBehaviour
 
         rangeSFX = Random.Range(0.8f, 1.2f);
         GetComponent<AudioSource>().pitch = rangeSFX;
-        GetComponent<AudioSource>().volume = 0.2f;
+        GetComponent<AudioSource>().volume = 0.8f;
         GetComponent<AudioSource>().Play();
 
         if (col.gameObject.tag == "Ground")
