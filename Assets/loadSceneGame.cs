@@ -7,7 +7,7 @@ public class loadSceneGame: MonoBehaviour {
 	public void Ficken()
 	{
 
-		SceneManager.LoadScene ("Egghunter_alpha_6a");
+		SceneManager.LoadScene ("Egghunter_alpha_6b");
 
 	}
 	}
